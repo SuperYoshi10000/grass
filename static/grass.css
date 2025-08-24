@@ -1,0 +1,29 @@
+body {
+    background-image: url('grass/grass.png');
+    background-size: cover;
+}
+
+div {
+    background: #ffffff3f;
+    text-align: center;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+#grass-green {
+    height: auto;
+    max-width: 75vw;
+    max-height: 50vh;
+}
+#grass-green:is(:hover, :focus) {
+    filter: brightness(1.2);
+}
+#grass-green:active {
+    filter: brightness(1.4);
+}
+
+#grass-green:focus {
+    outline: 0.5em solid green;
+    outline-offset: 0.25em;
+}

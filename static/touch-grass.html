@@ -6,19 +6,25 @@
         <title>Touch Grass</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='grass.css'>
+        <link rel='icon' href="grass/grass-zoom.png">
         <script src='grass.js' defer></script>
     </head>
     <body>
-        <div>
-            <div>
-                <h1>Touch Grass</h1>
+        <div data-h>
+            <div style="flex: 0.5;">
+                <div>
+                    <h1>Touch Grass</h1>
+                </div>
+                <div data-noflex>
+                    <img id="grass-green" src="grass/grass-green.png" alt="grass" tabindex="0"/>
+                </div>
+                <div>
+                    <p>You have touched grass <b id="touch-grass-counter">0 times</b>.</p>
+                </div>
             </div>
-            <div>
-                <img id="grass-green" src="grass/grass-green.png" alt="grass" tabindex="0"/>
-            </div>
-            <div>
-                <p>You have touched grass <b id="touch-grass-counter">0 times</b>.</p>
-            </div>
+            <!-- <div>
+                A
+            </div> -->
         </div>
     </body>
 </html>
